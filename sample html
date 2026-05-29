@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS S3 Static Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fa;
+            color: #333;
+        }
+
+        header {
+            background: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ff9900;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #e68a00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #232f3e;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AWS S3 Static Website Hosting</h1>
+        <p>Hosted entirely on Amazon S3</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Welcome!</h2>
+            <p>
+                This website is hosted using AWS S3 Static Website Hosting.
+                No web server is required.
+            </p>
+
+            <a href="https://aws.amazon.com/s3/" class="btn">
+                Learn More
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Project Highlights</h2>
+            <p>✔ Static Website Hosting</p>
+            <p>✔ Public Access Configuration</p>
+            <p>✔ Bucket Policy Setup</p>
+            <p>✔ Optional CloudFront Integration</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Built for AWS Cloud Portfolio Demo</p>
+    </footer>
+
+</body>
+</html>
